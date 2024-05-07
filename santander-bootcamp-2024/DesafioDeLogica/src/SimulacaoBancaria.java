@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class SimulacaoBancaria {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         double saldo = 0;
 
