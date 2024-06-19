@@ -1,13 +1,13 @@
-package rb.primeira_api_jwt;
+package rb.usermanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PrimeiraApiJwtApplication {
+public class UsermanagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PrimeiraApiJwtApplication.class, args);
+		SpringApplication.run(UsermanagementApplication.class, args);
 	}
 
 }

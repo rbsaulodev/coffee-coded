@@ -1,10 +1,10 @@
-package rb.primeira_api_jwt;
+package rb.usermanagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PrimeiraApiJwtApplicationTests {
+class UsermanagementApplicationTests {
 
 	@Test
 	void contextLoads() {
