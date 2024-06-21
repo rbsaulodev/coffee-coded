@@ -14,8 +14,7 @@ O repositório está organizado da seguinte forma:
 
 - **Faculdade 🏫**: Exercícios e projetos da Faculdade
 - **Bootcamp 💻**: Conteúdos sobre o Bootcamp Santander Java 2024
-- **YouTube 📺**: Conteúdos e exercícios praticos
-- **LeetCode 💻**: Exercícios de lógica de programação
+- **Internet 📺**: Conteúdos, exercícios praticos e projetos encontrados na Web
 
 ## Como Contribuir 🤝
 
