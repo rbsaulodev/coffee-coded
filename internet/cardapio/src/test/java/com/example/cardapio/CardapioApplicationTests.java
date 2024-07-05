@@ -1,10 +1,10 @@
-package rb.fullstack_cardapio;
+package com.example.cardapio;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FullstackCardapioApplicationTests {
+class CardapioApplicationTests {
 
 	@Test
 	void contextLoads() {

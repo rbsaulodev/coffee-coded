@@ -1,13 +1,13 @@
-package rb.fullstack_cardapio;
+package com.example.cardapio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FullstackCardapioApplication {
+public class CardapioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FullstackCardapioApplication.class, args);
+		SpringApplication.run(CardapioApplication.class, args);
 	}
 
 }
