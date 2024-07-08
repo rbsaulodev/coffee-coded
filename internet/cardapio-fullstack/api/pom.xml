@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>cardapio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cardapio</name>
+	<name>api</name>
 	<description>Projeto FullStack de cardápio </description>
 	<url/>
 	<licenses>
