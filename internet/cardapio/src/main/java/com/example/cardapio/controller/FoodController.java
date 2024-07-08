@@ -32,4 +32,10 @@ public class FoodController {
         foodList = repository.findAll().stream().map(FoodResponseDTO::new).toList();
         return foodList;
     }
+
+    @DeleteMapping("/{id}")
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    public void deleteFood(@PathVariable Long id) {
+        repository.deleteById(id);
+    }
 }
