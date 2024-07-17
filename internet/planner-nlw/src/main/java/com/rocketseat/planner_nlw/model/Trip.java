@@ -39,11 +39,11 @@ public class Trip {
 
     public Trip(TripRequestDTO data) {
         this.destination = data.destination();
-        this.startsAt = LocalDateTime.parse(data.starts_at());
-        this.endsAt = LocalDateTime.parse(data.ends_at());
+        this.startsAt = LocalDateTime.parse(data.starts_at(), DateTimeFormatter.ISO_DATE_TIME);
+        this.endsAt = LocalDateTime.parse(data.ends_at(), DateTimeFormatter.ISO_DATE_TIME);
         this.ownerEmail = data.owner_email();
         this.ownerName = data.owner_name();
-        this.isConfirmed = data.is_confirmed() != null ? data.is_confirmed() : false; // Usar valor do DTO ou padrão
+        this.isConfirmed = data.is_confirmed() != null ? data.is_confirmed() : false;
     }
 }
 
