@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class HandBag {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        ClassHandBag bolsa1 = new ClassHandBag();
-        ClassHandBag bolsa2 = new ClassHandBag();
-        ClassHandBag bolsa3 = new ClassHandBag();
+        ClassHandBagEx5 bolsa1 = new ClassHandBagEx5();
+        ClassHandBagEx5 bolsa2 = new ClassHandBagEx5();
+        ClassHandBagEx5 bolsa3 = new ClassHandBagEx5();
 
         System.out.println("Digite a cor da primeira bolsa: ");
         bolsa1.cor = scan.nextLine();
@@ -43,5 +43,8 @@ public class HandBag {
         bolsa3.valor = scan.nextFloat();
 
         scan.close();
+        bolsa1.status();
+        bolsa2.status();
+        bolsa3.status();
     }
 }
