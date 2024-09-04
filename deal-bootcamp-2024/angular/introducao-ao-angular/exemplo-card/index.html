@@ -1,33 +1,38 @@
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Card App</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="src/Components/hello-world.js" defer></script>
+        <script src="src/Components/TituloDinamico.js" defer></script>
+        <script src="src/Components/CardApp.js" defer></script>
     </head>
     <body>
-        <div class="card">
-            <img src="assets/icon.jpeg" alt="Darth Vader">
-            <div class="content">
-            <h2>Darth Vader esta contratando Front-Ends</h2>
-            <p>Lorde Vader anuncia estar procurando novos funcionários, e é pré-requisito saber trabalhar com componentização.</p>
-            <button id="subscribeButton">Se Inscrever</button>
-            <div class="metadata">
-                <span class="author">Wilhuff Tarkin</span>
-                <span class="date">Jul 14</span>
-                <span class="read-time">3 min read</span>
-                <span class="source">Imperio News</span>
-            </div>
-            </div>
-        </div>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-              const subscribeButton = document.getElementById("subscribeButton");
-              subscribeButton.addEventListener("click", function () {
-                  alert("Inscrito com sucesso!");
-              });
-            });
-          </script>          
+        <card-app 
+            title="Empresa rb está contratando" 
+            description="Requisitos: Java + Spring e Angular, salario: 1.8k, vaga para estagiario" 
+            autor="Saulo Brilhate" 
+            date="Set 3" 
+            readTime="5 mim read" 
+            src="">
+        </card-app>
+        <card-app 
+            title="Empresa rb está contratando" 
+            description="Requisitos: Java + Spring e Angular, salario: 1.8k, vaga para estagiario" 
+            autor="Saulo Brilhate" 
+            date="Set 3" 
+            readTime="5 mim read" 
+            src="">
+        </card-app>
+        <card-app 
+            title="Empresa rb está contratando" 
+            description="Requisitos: Java + Spring e Angular, salario: 1.8k, vaga para estagiario" 
+            autor="Saulo Brilhate" 
+            date="Set 3" 
+            readTime="5 mim read" 
+            src="">
+        </card-app>
     </body>
     </html>
