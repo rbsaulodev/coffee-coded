@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("v1/heroes")
+@RequestMapping(value = "v1/heroes")
 public class HeroController {
     private static final List<String> heroes = List.of("Guts", "Ichigo", "Luffy", "Goku");
 

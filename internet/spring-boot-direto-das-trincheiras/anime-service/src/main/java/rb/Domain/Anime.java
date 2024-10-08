@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Getter
@@ -12,16 +13,18 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Anime {
-    long id;
-    String name;
+    private long id;
+    private String name;
+    @Getter
+    private static List<Anime> animes = new ArrayList<>();
+    static {
+       var anime1 = new Anime(1, "Naruto");
+       var anime2 = new Anime(2, "Bleach");
+       var anime3 = new Anime(3, "One Piece");
+       var anime4 = new Anime(4, "Fire Force");
+       var anime5 = new Anime(5, "Hunter X Hunter");
 
-    public static List<Anime> getAll() {
-        return List.of(
-                new Anime(1, "Naruto"),
-                new Anime(2, "Bleach"),
-                new Anime(3, "One Piece"),
-                new Anime(4, "Fire Force"),
-                new Anime(5, "Hunter X Hunter")
-        );
+       animes.addAll(List.of(anime1, anime2, anime3, anime4, anime5));
     }
+
 }
